@@ -8,6 +8,11 @@ mkdir 241122
 touch 241122/nodetrial.js
 ```
 
+- カレントディレクトリの移動
+```
+cd 241122
+```
+
 - node.js環境の確認
 ```
 node -v
