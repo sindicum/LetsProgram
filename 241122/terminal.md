@@ -8,4 +8,8 @@ mkdir 241122
 touch 241122/nodetrial.js
 ```
 
-
+- node.js環境の確認
+```
+node -v
+v20.17.0
+```
