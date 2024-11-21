@@ -10,7 +10,7 @@ Expressのインストール
 ```
 npm init -y
 npm install express
-touch sever.js
+touch server.js
 ```
 
 ```server.js
@@ -54,7 +54,7 @@ public/index.htmlへの記述
 ```
 node server.js
 ```
-サーバーの停止はCont+C
+サーバーの停止はControl+C
 
 
 ### メモアプリの作成
@@ -135,4 +135,4 @@ button {
 ```
 node server.js
 ```
-サーバーの停止はCont+C
+サーバーの停止はControl+C
