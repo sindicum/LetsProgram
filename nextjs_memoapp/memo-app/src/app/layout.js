@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "簡単メモアプリ",
+  title: "メモアプリ",
   description: "",
 };
 

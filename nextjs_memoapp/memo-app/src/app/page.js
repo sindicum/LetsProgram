@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
       <main className="p-2">
-        <h1 className="text-3xl my-6">簡単メモアプリ（Next.js版）</h1>
+        <h1 className="text-3xl my-6">メモアプリ（Next.js版）</h1>
         <input className="border" value={inputText} onChange={e => setInputText(e.target.value)}/>
         <button className="ml-4 px-2 border rounded bg-gray-100" onClick={onClickAddBtn}>追加</button>
         <div className="border p-4 my-2">
