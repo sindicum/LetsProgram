@@ -10,3 +10,7 @@ console.log(a+b)
 console.log(a-b)
 console.log(a*b)
 console.log(a/b)
+
+const aaa = ['sss', 'dddd', 'cccc']
+aaa.splice(2,1)
+console.log(aaa)

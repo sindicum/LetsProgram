@@ -1,16 +1,16 @@
 ### ターミナルを使う
 ディレクトリの作成
 ```
-mkdir 241122_introduction
+mkdir introduction
 ```
 ファイルの作成
 ```
-touch 241122_introduction/nodetrial.js
+touch introduction/nodetrial.js
 ```
 
 カレントディレクトリの移動
 ```
-cd 241122_introduction
+cd introduction
 ```
 
 node.js環境の確認
