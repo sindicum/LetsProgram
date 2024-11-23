@@ -20,7 +20,7 @@ node -v
 ```
 
 ### JavaScriptを実行する
-カレントディレクトリに注意！（241122に移動済）
+カレントディレクトリに注意！（introductionに移動済）
 ```
 node nodetrial.js
 ```
