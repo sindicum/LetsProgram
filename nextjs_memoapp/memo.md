@@ -1,12 +1,12 @@
 ### Next.jsのセットアップ
 
 セットアップ
-```
+```sh
 npx create-next-app@latest
 ```
 
 以下の通り記述・選択する。
-```
+```sh
 ✔ What is your project named? … memo-app
 ✔ Would you like to use TypeScript? … No
 ✔ Would you like to use ESLint? … No
@@ -18,7 +18,7 @@ npx create-next-app@latest
 ```
 
 サーバー起動
-```
+```sh
 cd memp-app
 npm run dev
 ```
@@ -33,7 +33,7 @@ memoapp/src/app/global.css
 ```
 
 memo-app/src/app/layout.js
-```
+```js
 import "./globals.css";
 
 export const metadata = {
@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
 ```
 
 memo-app/src/app/page.js
-```
+```js
 export default function Home() {
   return (
       <main>
@@ -69,7 +69,7 @@ src/app/fontsディレクトリは中のファイルごと全削除
 ### 簡単メモアプリのＨＴＭＬ要素を記述する
 
 src/app/page.jsに記述。idやclassは記述しない。
-```
+```js
 export default function Home() {
   return (
       <main>
@@ -89,7 +89,7 @@ export default function Home() {
 TailwindCSSとは？
 あらかじめ用意されたクラスをHTMLに追加するだけで、デザインの一貫性を保ちながら効率的にスタイルを設定可能。レスポンシブ対応やモダンなUI開発に適している。
 https://tailwindcss.com/
-```
+```html
 <main className="p-2">
   <h1 className="text-3xl my-6">簡単メモアプリ</h1>
   <input className="border" />
@@ -103,7 +103,7 @@ https://tailwindcss.com/
 
 ### 動的機能を実装する
 src/app/page.js
-```
+```js
 "use client"
 import { useState} from "react";
 
