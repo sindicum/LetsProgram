@@ -23,10 +23,11 @@ cd memp-app
 npm run dev
 ```
 
+ 
 ### ファイル修正して最小構成にしてみる
 
 memoapp/src/app/global.css
-```
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -66,6 +67,7 @@ export default function Home() {
 publicディレクトリのsvgファイルは全削除
 src/app/fontsディレクトリは中のファイルごと全削除
 
+ 
 ### 簡単メモアプリのＨＴＭＬ要素を記述する
 
 src/app/page.jsに記述。idやclassは記述しない。
@@ -85,6 +87,7 @@ export default function Home() {
 }
 ```
 
+ 
 ### TailwindCSSで装飾を施す
 TailwindCSSとは？
 あらかじめ用意されたクラスをHTMLに追加するだけで、デザインの一貫性を保ちながら効率的にスタイルを設定可能。レスポンシブ対応やモダンなUI開発に適している。
@@ -101,6 +104,7 @@ https://tailwindcss.com/
 </main>
 ```
 
+ 
 ### 動的機能を実装する
 src/app/page.js
 ```js
@@ -140,4 +144,98 @@ export default function Home() {
       </main>
   );
 }
+```
+ 
+#### useState（React）
+動的に変化するデータを扱う。コンポーネント内で状態を宣言し、その状態を変更するための関数を利用する。
+```js
+const [state, setState] = useState(initialValue);
+```
+`state`
+- 現在の状態を格納する変数。
+- useState が返す最初の値はinitialValue（初期値）。
+`setState`
+- 状態を更新するための関数。
+- 状態を直接変更するのではなく、この関数を通じて状態を更新する（重要）。
+`initialValue`
+- 状態の初期値を指定。
+- 数値、文字列、配列、オブジェクトなど、任意の型を設定可能。
+
+使用例：カウンター
+```js
+import React, { useState } from "react";
+
+function Counter() {
+  const [count, setCount] = useState(0); // 初期値は 0
+
+  const increment = () => setCount(count + 1); // count を 1 増やす
+  const decrement = () => setCount(count - 1); // count を 1 減らす
+
+  return (
+    <div>
+      <p>カウント: {count}</p>
+      <button onClick={increment}>増加</button>
+      <button onClick={decrement}>減少</button>
+    </div>
+  );
+}
+
+export default Counter;
+```
+
+#### ...スプレッド構文（JS）
+配列の要素を展開して、新しい配列を作成
+```js
+const arr1 = [1, 2, 3];
+const arr2 = [...arr1, 4, 5];
+console.log(arr2); // [1, 2, 3, 4, 5]
+```
+元の配列は変更されず、新しい配列をコピーすることができる。
+```js
+const arr1 = [1, 2, 3];
+const arr2 = [...arr1]; // arr1 をコピー
+arr2.push(4);
+console.log(arr1); // [1, 2, 3]（元の配列は変更されない）
+console.log(arr2); // [1, 2, 3, 4]
+```
+
+#### filter関数（JS）
+指定した条件に合致する要素だけを抽出して新しい配列を生成。
+```js
+const newArray = array.filter((element, index, array) => {
+  // 条件式を記述
+  return 条件式;
+});
+```
+- element: 配列内の現在の要素。
+- index: 現在の要素のインデックス（省略可能）。
+- array: 元の配列（省略可能）。
+- 戻り値: 条件式が true の要素だけを含む新しい配列。
+
+
+例：偶数だけを抽出
+```js
+const numbers = [1, 2, 3, 4, 5, 6];
+const evenNumbers = numbers.filter((num) => num % 2 === 0);
+console.log(evenNumbers); // [2, 4, 6]
+```
+
+#### map関数（JS）
+元の配列を変更せず、配列の内容を加工・変換するために使用
+```js
+const newArray = array.map((element, index, array) => {
+  // 新しい配列の要素を返す
+  return 加工された値;
+});
+```
+- element:配列内の現在の要素。
+- index:現在の要素のインデックス（省略可能）。
+- array:元の配列（省略可能）。
+- 戻り値:すべての要素を加工して作成した新しい配列。
+
+例：配列の要素を2倍
+```js
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map((num) => num * 2);
+console.log(doubled); // [2, 4, 6, 8, 10]
 ```
