@@ -89,8 +89,7 @@ export default function Home() {
 
  
 ### TailwindCSSで装飾を施す
-TailwindCSSとは？
-あらかじめ用意されたクラスをHTMLに追加するだけで、デザインの一貫性を保ちながら効率的にスタイルを設定可能。レスポンシブ対応やモダンなUI開発に適している。
+あらかじめ用意されたクラスをHTMLに追加するだけで、デザインの一貫性を保ちながら効率的にスタイルを設定可能。レスポンシブ対応やモダンなUI開発に適している。  
 https://tailwindcss.com/
 ```html
 <main className="p-2">
