@@ -5,11 +5,8 @@ export const metadata = {
   description: "",
 };
 
-
-
 export default function RootLayout({ children }) {
-  // const a = 'a'
-  // a += 'a'
+
   return (
     <html lang="ja">
       <body>
