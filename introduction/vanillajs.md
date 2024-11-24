@@ -73,11 +73,11 @@ public/index.htmlへの記述
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>簡単メモアプリ</title>
+    <title>メモアプリ</title>
     <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-    <h1 id="title">簡単メモアプリ</h1>
+    <h1 id="title">メモアプリ</h1>
     <input id="add-text" />
     <button id="add-button">追加</button>
     <div class="container">
