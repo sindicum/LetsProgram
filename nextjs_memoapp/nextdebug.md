@@ -1,5 +1,4 @@
 ## .vscode/launch.jsonを記述
----
 
 サーバーサイドのデバッグはVSCodeで行う。
 - .vscode/launch.jsonの記述
