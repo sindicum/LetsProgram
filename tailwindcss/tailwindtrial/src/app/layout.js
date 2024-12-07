@@ -9,12 +9,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja">
       <body>
-        <header className="bg-sky-100">
-          <a href="/" className="href">
+        <header className="bg-sky-100 h-16 flex items-center justify-center">
+          <a href="/" className="mx-4 hover:text-sky-600">
             トップ
           </a>
-          <a href="/boxmodel" className="href">
-            ボックス
+          <a href="/boxmodel" className="mx-4 hover:text-sky-600">
+            ボックスの構造
+          </a>
+          <a href="/boxlayout" className="mx-4 hover:text-sky-600">
+            ボックスのレイアウト
+          </a>
+          <a href="/flex" className="mx-4 hover:text-sky-600">
+            フレキシブルボックスレイアウト
+          </a>
+          <a href="/grid" className="mx-4 hover:text-sky-600">
+            グリッドレイアウト
+          </a>
+          <a href="/unit-color" className="mx-4 hover:text-sky-600">
+            単位と色
           </a>
         </header>
         <main>{children}</main>

@@ -1,3 +1,35 @@
+### ディレクトリとファイルの生成
+
+```sh
+// カレントディレクトリはsrc/app
+mkdir boxmodel
+touch boxmodel/page.js
+```
+
+### ヘッダーを作成
+
+src/app/layout.js
+
+```jsx
+<html lang="ja">
+  <body>
+    <header className="bg-sky-100 h-16 flex items-center justify-center">
+      <a href="/" className="mx-4 hover:text-sky-600">
+        トップ
+      </a>
+      <a href="/boxmodel" className="mx-4 hover:text-sky-600">
+        ボックスの構造
+      </a>
+    <main>{children}</main>
+  </body>
+</html>
+```
+
+### 「ボックスの構造」ページを作成
+
+src/app/boxmodel/page.js
+
+```jsx
 export default function BoxModel() {
   return (
     <div>
@@ -50,3 +82,4 @@ export default function BoxModel() {
     </div>
   );
 }
+```
