@@ -75,6 +75,9 @@ export default function UnitColor() {
 
   return (
     <>
+      <h1 className="pt-8 text-3xl font-bold text-center">単位と色</h1>
+      <hr className="my-2 border-t border-dashed border-gray-600" />
+
       <table className="mx-auto my-4 border border-gray-500">
         <caption className="text-2xl text-gray-500">長さの見本</caption>
         <thead>
@@ -98,7 +101,8 @@ export default function UnitColor() {
           ))}
         </tbody>
       </table>
-      <hr />
+      <hr className="my-2 border-t border-dashed border-gray-600" />
+
       <table className="mx-auto my-4 border border-gray-500 table-fixed">
         <caption className="text-2xl text-gray-500">カラーパレット</caption>
         <thead>

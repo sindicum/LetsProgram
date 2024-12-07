@@ -13,12 +13,12 @@ export default function FlexibleBoxLayout() {
         <div className="bg-red-100">01</div>
         <div className="bg-red-200">02</div>
         <div className="bg-red-300">03</div>
-        <div className="bg-red-400">04</div>
-        <div className="bg-red-500">05</div>
-        <div className="bg-red-600">06</div>
-        <div className="bg-red-700">07</div>
-        <div className="bg-red-800">08</div>
-        <div className="bg-red-900">09</div>
+        <div className="bg-orange-100">04</div>
+        <div className="bg-orange-200">05</div>
+        <div className="bg-orange-300">06</div>
+        <div className="bg-yellow-100">07</div>
+        <div className="bg-yellow-200">08</div>
+        <div className="bg-yellow-300">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -29,12 +29,12 @@ export default function FlexibleBoxLayout() {
         <div className="bg-red-100">01</div>
         <div className="bg-red-200">02</div>
         <div className="bg-red-300">03</div>
-        <div className="bg-red-400">04</div>
-        <div className="bg-red-500">05</div>
-        <div className="bg-red-600">06</div>
-        <div className="bg-red-700">07</div>
-        <div className="bg-red-800">08</div>
-        <div className="bg-red-900">09</div>
+        <div className="bg-orange-100">04</div>
+        <div className="bg-orange-200">05</div>
+        <div className="bg-orange-300">06</div>
+        <div className="bg-yellow-100">07</div>
+        <div className="bg-yellow-200">08</div>
+        <div className="bg-yellow-300">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -45,12 +45,12 @@ export default function FlexibleBoxLayout() {
         <div className="bg-red-100">01</div>
         <div className="bg-red-200">02</div>
         <div className="bg-red-300">03</div>
-        <div className="bg-red-400">04</div>
-        <div className="bg-red-500">05</div>
-        <div className="bg-red-600">06</div>
-        <div className="bg-red-700">07</div>
-        <div className="bg-red-800">08</div>
-        <div className="bg-red-900">09</div>
+        <div className="bg-orange-100">04</div>
+        <div className="bg-orange-200">05</div>
+        <div className="bg-orange-300">06</div>
+        <div className="bg-yellow-100">07</div>
+        <div className="bg-yellow-200">08</div>
+        <div className="bg-yellow-300">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -61,12 +61,12 @@ export default function FlexibleBoxLayout() {
         <div className="bg-red-100 basis-8">01</div>
         <div className="bg-red-200 basis-12">02</div>
         <div className="bg-red-300 basis-16">03</div>
-        <div className="bg-red-400 basis-20">04</div>
-        <div className="bg-red-500 basis-24">05</div>
-        <div className="bg-red-600 basis-1/12">06</div>
-        <div className="bg-red-700 basis-1/6">07</div>
-        <div className="bg-red-800 basis-1/5">08</div>
-        <div className="bg-red-900 basis-1/4">09</div>
+        <div className="bg-orange-100 basis-20">04</div>
+        <div className="bg-orange-200 basis-24">05</div>
+        <div className="bg-orange-300 basis-1/12">06</div>
+        <div className="bg-yellow-100 basis-1/6">07</div>
+        <div className="bg-yellow-200 basis-1/5">08</div>
+        <div className="bg-yellow-300 basis-1/4">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -80,12 +80,12 @@ export default function FlexibleBoxLayout() {
         <div className="bg-red-100 basis-72">01</div>
         <div className="bg-red-200 basis-72">02</div>
         <div className="bg-red-300 basis-72">03</div>
-        <div className="bg-red-400 basis-72">04</div>
-        <div className="bg-red-500 basis-72">05</div>
-        <div className="bg-red-600 basis-72">06</div>
-        <div className="bg-red-700 basis-72">07</div>
-        <div className="bg-red-800 basis-72">08</div>
-        <div className="bg-red-900 basis-72">09</div>
+        <div className="bg-orange-100 basis-72">04</div>
+        <div className="bg-orange-200 basis-72">05</div>
+        <div className="bg-orange-300 basis-72">06</div>
+        <div className="bg-yellow-100 basis-72">07</div>
+        <div className="bg-yellow-200 basis-72">08</div>
+        <div className="bg-yellow-300 basis-72">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -96,12 +96,12 @@ export default function FlexibleBoxLayout() {
         <div className="bg-red-100 basis-72">01</div>
         <div className="bg-red-200 basis-72">02</div>
         <div className="bg-red-300 basis-72">03</div>
-        <div className="bg-red-400 basis-72">04</div>
-        <div className="bg-red-500 basis-72">05</div>
-        <div className="bg-red-600 basis-72">06</div>
-        <div className="bg-red-700 basis-72">07</div>
-        <div className="bg-red-800 basis-72">08</div>
-        <div className="bg-red-900 basis-72">09</div>
+        <div className="bg-orange-100 basis-72">04</div>
+        <div className="bg-orange-200 basis-72">05</div>
+        <div className="bg-orange-300 basis-72">06</div>
+        <div className="bg-yellow-100 basis-72">07</div>
+        <div className="bg-yellow-200 basis-72">08</div>
+        <div className="bg-yellow-300 basis-72">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -113,24 +113,24 @@ export default function FlexibleBoxLayout() {
         <div className="bg-red-100 w-8">w-8</div>
         <div className="bg-red-200 w-12">w-12</div>
         <div className="bg-red-300 w-20">w-20</div>
-        <div className="bg-red-400 w-32">w-32</div>
-        <div className="bg-red-500 w-48">w-48</div>
+        <div className="bg-orange-100 w-32">w-32</div>
+        <div className="bg-orange-200 w-48">w-48</div>
       </div>
       <div>flex-1:各要素の幅に囚われず均等に収縮</div>
       <div className="flex">
         <div className="bg-red-100 w-8 flex-1">w-8</div>
         <div className="bg-red-200 w-12 flex-1">w-12</div>
         <div className="bg-red-300 w-20 flex-1">w-20</div>
-        <div className="bg-red-400 w-32 flex-1">w-32</div>
-        <div className="bg-red-500 w-48 flex-1">w-48</div>
+        <div className="bg-orange-100 w-32 flex-1">w-32</div>
+        <div className="bg-orange-200 w-48 flex-1">w-48</div>
       </div>
       <div>flex-auto:各要素の幅の比率を維持して収縮</div>
       <div className="flex">
         <div className="bg-red-100 w-8 flex-auto">w-8</div>
         <div className="bg-red-200 w-12 flex-auto">w-12</div>
         <div className="bg-red-300 w-20 flex-auto">w-20</div>
-        <div className="bg-red-400 w-32 flex-auto">w-32</div>
-        <div className="bg-red-500 w-48 flex-auto">w-48</div>
+        <div className="bg-orange-100 w-32 flex-auto">w-32</div>
+        <div className="bg-orange-200 w-48 flex-auto">w-48</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -141,12 +141,12 @@ export default function FlexibleBoxLayout() {
         <div className="bg-red-100 w-12">01</div>
         <div className="bg-red-200 w-12">02</div>
         <div className="bg-red-300 w-12">03</div>
-        <div className="bg-red-400 w-12">04</div>
-        <div className="bg-red-500 w-12">05</div>
-        <div className="bg-red-600 w-12">06</div>
-        <div className="bg-red-700 w-12">07</div>
-        <div className="bg-red-800 w-12">08</div>
-        <div className="bg-red-900 w-12">09</div>
+        <div className="bg-orange-100 w-12">04</div>
+        <div className="bg-orange-200 w-12">05</div>
+        <div className="bg-orange-300 w-12">06</div>
+        <div className="bg-yellow-100 w-12">07</div>
+        <div className="bg-yellow-200 w-12">08</div>
+        <div className="bg-yellow-300 w-12">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -157,12 +157,12 @@ export default function FlexibleBoxLayout() {
         <div className="bg-red-100 w-12">01</div>
         <div className="bg-red-200 w-12">02</div>
         <div className="bg-red-300 w-12">03</div>
-        <div className="bg-red-400 w-12">04</div>
-        <div className="bg-red-500 w-12">05</div>
-        <div className="bg-red-600 w-12">06</div>
-        <div className="bg-red-700 w-12">07</div>
-        <div className="bg-red-800 w-12">08</div>
-        <div className="bg-red-900 w-12">09</div>
+        <div className="bg-orange-100 w-12">04</div>
+        <div className="bg-orange-200 w-12">05</div>
+        <div className="bg-orange-300 w-12">06</div>
+        <div className="bg-yellow-100 w-12">07</div>
+        <div className="bg-yellow-200 w-12">08</div>
+        <div className="bg-yellow-300 w-12">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -173,12 +173,12 @@ export default function FlexibleBoxLayout() {
         <div className="bg-red-100 w-12">01</div>
         <div className="bg-red-200 w-12">02</div>
         <div className="bg-red-300 w-12">03</div>
-        <div className="bg-red-400 w-12">04</div>
-        <div className="bg-red-500 w-12">05</div>
-        <div className="bg-red-600 w-12">06</div>
-        <div className="bg-red-700 w-12">07</div>
-        <div className="bg-red-800 w-12">08</div>
-        <div className="bg-red-900 w-12">09</div>
+        <div className="bg-orange-100 w-12">04</div>
+        <div className="bg-orange-200 w-12">05</div>
+        <div className="bg-orange-300 w-12">06</div>
+        <div className="bg-yellow-100 w-12">07</div>
+        <div className="bg-yellow-200 w-12">08</div>
+        <div className="bg-yellow-300 w-12">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 

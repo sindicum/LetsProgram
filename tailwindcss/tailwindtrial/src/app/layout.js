@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja">
       <body>
-        <header className="bg-sky-100 h-16 flex items-center justify-center">
+        <header className="bg-sky-100 h-16 flex items-center justify-center flex-wrap">
           <a href="/" className="mx-4 hover:text-sky-600">
             トップ
           </a>
@@ -27,6 +27,12 @@ export default function RootLayout({ children }) {
           </a>
           <a href="/unit-color" className="mx-4 hover:text-sky-600">
             単位と色
+          </a>
+          <a href="/responsive" className="mx-4 hover:text-sky-600">
+            レスポンシブ
+          </a>
+          <a href="/specialbox" className="mx-4 hover:text-sky-600">
+            特殊なボックス
           </a>
         </header>
         <main>{children}</main>
