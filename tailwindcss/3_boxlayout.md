@@ -54,7 +54,7 @@ export default function BoxLayout() {
       <ul className="bg-red-100">ulタグ</ul>
       <h1 className="bg-red-200">h1〜h6タグ</h1>
       <div className="bg-red-100">
-        これらのタグはwidthが親コンテナに対sする横幅いっぱいになる
+        これらのタグはwidthが親コンテナに対して横幅いっぱいになる
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
