@@ -52,7 +52,7 @@ export default function GridLayout() {
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
       <div className="text-xl font-semibold text-gray-500">
-        親要素にgrid grid-rows-4
+        親要素にgrid grid-rows-2
         grid-flow-col:二行のグリッド（grid-rows-*だけだとアイテムが縦方向に並ぶためgrid-flow-colが必要）
       </div>
       <div className="grid grid-rows-2 grid-flow-col">
