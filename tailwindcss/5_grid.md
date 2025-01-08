@@ -40,12 +40,12 @@ export default function GridLayout() {
         <div className="bg-red-100">01</div>
         <div className="bg-red-200">02</div>
         <div className="bg-red-300">03</div>
-        <div className="bg-red-400">04</div>
-        <div className="bg-red-500">05</div>
-        <div className="bg-red-600">06</div>
-        <div className="bg-red-700">07</div>
-        <div className="bg-red-800">08</div>
-        <div className="bg-red-900">09</div>
+        <div className="bg-orange-100">04</div>
+        <div className="bg-orange-200">05</div>
+        <div className="bg-orange-300">06</div>
+        <div className="bg-yellow-100">07</div>
+        <div className="bg-yellow-200">08</div>
+        <div className="bg-yellow-300">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -56,12 +56,12 @@ export default function GridLayout() {
         <div className="bg-red-100">01</div>
         <div className="bg-red-200">02</div>
         <div className="bg-red-300">03</div>
-        <div className="bg-red-400">04</div>
-        <div className="bg-red-500">05</div>
-        <div className="bg-red-600">06</div>
-        <div className="bg-red-700">07</div>
-        <div className="bg-red-800">08</div>
-        <div className="bg-red-900">09</div>
+        <div className="bg-orange-100">04</div>
+        <div className="bg-orange-200">05</div>
+        <div className="bg-orange-300">06</div>
+        <div className="bg-yellow-100">07</div>
+        <div className="bg-yellow-200">08</div>
+        <div className="bg-yellow-300">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -72,12 +72,12 @@ export default function GridLayout() {
         <div className="bg-red-100">01</div>
         <div className="bg-red-200">02</div>
         <div className="bg-red-300">03</div>
-        <div className="bg-red-400">04</div>
-        <div className="bg-red-500">05</div>
-        <div className="bg-red-600">06</div>
-        <div className="bg-red-700">07</div>
-        <div className="bg-red-800">08</div>
-        <div className="bg-red-900">09</div>
+        <div className="bg-orange-100">04</div>
+        <div className="bg-orange-200">05</div>
+        <div className="bg-orange-300">06</div>
+        <div className="bg-yellow-100">07</div>
+        <div className="bg-yellow-200">08</div>
+        <div className="bg-yellow-300">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
       <div className="text-xl font-semibold text-gray-500">
@@ -88,12 +88,12 @@ export default function GridLayout() {
         <div className="bg-red-100">01</div>
         <div className="bg-red-200">02</div>
         <div className="bg-red-300">03</div>
-        <div className="bg-red-400">04</div>
-        <div className="bg-red-500">05</div>
-        <div className="bg-red-600">06</div>
-        <div className="bg-red-700">07</div>
-        <div className="bg-red-800">08</div>
-        <div className="bg-red-900">09</div>
+        <div className="bg-orange-100">04</div>
+        <div className="bg-orange-200">05</div>
+        <div className="bg-orange-300">06</div>
+        <div className="bg-yellow-100">07</div>
+        <div className="bg-yellow-200">08</div>
+        <div className="bg-yellow-300">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -106,12 +106,12 @@ export default function GridLayout() {
         <div className="bg-red-100">01</div>
         <div className="bg-red-200 col-span-2">02</div>
         <div className="bg-red-300 row-span-2">03</div>
-        <div className="bg-red-400">04</div>
-        <div className="bg-red-500">05</div>
-        <div className="bg-red-600">06</div>
-        <div className="bg-red-700">07</div>
-        <div className="bg-red-800 ">08</div>
-        <div className="bg-red-900 col-start-3">09</div>
+        <div className="bg-orange-100">04</div>
+        <div className="bg-orange-200">05</div>
+        <div className="bg-orange-300">06</div>
+        <div className="bg-yellow-100">07</div>
+        <div className="bg-yellow-200 ">08</div>
+        <div className="bg-yellow-300 col-start-3">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
@@ -123,12 +123,12 @@ export default function GridLayout() {
         <div className="bg-red-100">01</div>
         <div className="bg-red-200 col-span-2">02</div>
         <div className="bg-red-300 row-span-2">03</div>
-        <div className="bg-red-400">04</div>
-        <div className="bg-red-500">05</div>
-        <div className="bg-red-600">06</div>
-        <div className="bg-red-700">07</div>
-        <div className="bg-red-800 ">08</div>
-        <div className="bg-red-900 col-start-3">09</div>
+        <div className="bg-orange-100">04</div>
+        <div className="bg-orange-200">05</div>
+        <div className="bg-orange-300">06</div>
+        <div className="bg-yellow-100">07</div>
+        <div className="bg-yellow-200 ">08</div>
+        <div className="bg-yellow-300 col-start-3">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
     </>

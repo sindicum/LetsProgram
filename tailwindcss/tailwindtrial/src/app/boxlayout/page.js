@@ -4,7 +4,7 @@ export default function BoxLayout() {
     <>
       <h1 className="pt-8 text-3xl font-bold">ボックスのレイアウト</h1>
       <hr className="my-2 border-t border-dashed border-gray-600" />
-
+  
       <div className="text-xl font-semibold text-gray-500">
         要素の外側の位置関係を制御〜block,inline,inline-block
       </div>

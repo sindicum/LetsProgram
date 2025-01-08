@@ -34,7 +34,6 @@ export default function FlexibleBoxLayout() {
         フレキスブルボックスレイアウト
       </h1>
       <hr className="my-2 border-t border-dashed border-gray-600" />
-
       <div className="text-xl font-semibold text-gray-500">
         ブロックディスプレイのデフォルト
       </div>

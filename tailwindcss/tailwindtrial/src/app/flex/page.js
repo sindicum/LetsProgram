@@ -54,6 +54,7 @@ export default function FlexibleBoxLayout() {
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
+
       <div className="text-xl font-semibold text-gray-500">
         子要素にbasisで幅を設定する。01〜05:basis-6〜24,06〜09:basis-1/12〜1/4
       </div>
@@ -104,6 +105,7 @@ export default function FlexibleBoxLayout() {
         <div className="bg-yellow-300 basis-72">09</div>
       </div>
       <hr className="my-2 border-t border-dashed border-gray-600" />
+<div className="mx-2"></div>
 
       <div className="text-xl font-semibold text-gray-500">
         フレックスアイテムの収縮〜flex-1,flex-auto
