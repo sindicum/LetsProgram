@@ -30,7 +30,7 @@ export default function UnitColor() {
     "w-96",
   ];
 
-  const caclPixel = (el) => {
+  const calcPixel = (el) => {
     const exact = el.split("-")[1];
     const calc = 4 * Number(exact);
     return calc;
@@ -92,7 +92,7 @@ export default function UnitColor() {
             <tr key={idx}>
               <th className="px-4 py-2 border border-gray-500">{el}</th>
               <td className="px-4 py-2 border border-gray-500">
-                {caclPixel(el) + "px"}
+                {calcPixel(el) + "px"}
               </td>
               <td className="px-4 py-2 border border-gray-500">
                 <hr className={`${el} border-b-2 border-red-600`} />

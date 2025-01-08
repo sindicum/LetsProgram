@@ -185,7 +185,7 @@ export default function FlexibleBoxLayout() {
       <hr className="my-2 border-t border-dashed border-gray-600" />
 
       <div className="text-xl font-semibold text-gray-500">
-        フレックスアイテムの位置揃え（横方向の中央揃え:justyfi-center）
+        フレックスアイテムの位置揃え（横方向の中央揃え:justyfy-center）
       </div>
       <div className="flex justify-center">
         <div className="bg-red-100">01</div>
